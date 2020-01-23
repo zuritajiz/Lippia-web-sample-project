@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class GoogleSearchResultPage extends PageBaseGoogle {
+public class GoogleSearchResultPage extends PageBasePhpTravels {
 
     private WebElement stats() {
         return getWebElement(By.id("resultStats"));

@@ -3,7 +3,7 @@ package com.crowdar.examples.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class GoogleHomePage extends PageBaseGoogle {
+public class GoogleHomePage extends com.crowdar.examples.pages.PageBasePhpTravels {
 
     private final String INPUT_SEARCH_XPATH = "//input[@class='gLFyf gsfi']";
     private final String SEARCH_BUTTON_NAME = "btnK";
